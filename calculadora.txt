@@ -4,6 +4,7 @@ class Program
 {
     static void Main()
     {
+        Console.Write("CALCULADORA ");
         Console.Write("Digite o primeiro número: ");
         double num1 = Convert.ToDouble(Console.ReadLine());
 
