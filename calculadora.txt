@@ -1,0 +1,17 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite o primeiro número: ");
+        double num1 = Convert.ToDouble(Console.ReadLine());
+
+        Console.Write("Digite o segundo número: ");
+        double num2 = Convert.ToDouble(Console.ReadLine());
+
+        double resultado = num1 + num2;
+
+        Console.WriteLine($"A soma de {num1} e {num2} é: {resultado}");
+    }
+}
