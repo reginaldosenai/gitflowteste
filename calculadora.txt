@@ -10,7 +10,7 @@ class Program
         Console.Write("Digite o segundo número: ");
         double num2 = Convert.ToDouble(Console.ReadLine());
 
-        double resultado = num1 + num2;
+        double resultado = num1 - num2;
 
         Console.WriteLine($"A soma de {num1} e {num2} é: {resultado}");
     }
